@@ -22,7 +22,7 @@
     [super viewDidLoad];
     
     self.backimage = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    UIImage *sourceImage = [UIImage imageNamed:@"111.jpg"];
+    UIImage *sourceImage = [UIImage imageNamed:@"bgm.jpg"];
     UIImage *lastImage = [sourceImage applyDarkEffect];
     
     self.backimage.image = lastImage;
