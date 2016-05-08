@@ -13,6 +13,9 @@
 		BCB930F11CDEEE2D00E03D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB930EF1CDEEE2D00E03D1C /* Main.storyboard */; };
 		BCB930F31CDEEE2D00E03D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB930F21CDEEE2D00E03D1C /* Assets.xcassets */; };
 		BCB930F61CDEEE2D00E03D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB930F41CDEEE2D00E03D1C /* LaunchScreen.storyboard */; };
+		BCB930FE1CDEEE5C00E03D1C /* bgm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCB930FD1CDEEE5C00E03D1C /* bgm.jpg */; };
+		BCB931021CDEEEEB00E03D1C /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB931011CDEEEEB00E03D1C /* UIImage+ImageEffects.m */; };
+		BCB931041CDEF12C00E03D1C /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCB931031CDEF12C00E03D1C /* 111.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		BCB930F21CDEEE2D00E03D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB930F51CDEEE2D00E03D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB930F71CDEEE2D00E03D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB930FD1CDEEE5C00E03D1C /* bgm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgm.jpg; sourceTree = "<group>"; };
+		BCB931001CDEEEEB00E03D1C /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		BCB931011CDEEEEB00E03D1C /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		BCB931031CDEF12C00E03D1C /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +65,13 @@
 		BCB930E51CDEEE2D00E03D1C /* MaoBoLi */ = {
 			isa = PBXGroup;
 			children = (
+				BCB930FF1CDEEED100E03D1C /* EditImage */,
 				BCB930E91CDEEE2D00E03D1C /* AppDelegate.h */,
 				BCB930EA1CDEEE2D00E03D1C /* AppDelegate.m */,
 				BCB930EC1CDEEE2D00E03D1C /* ViewController.h */,
 				BCB930ED1CDEEE2D00E03D1C /* ViewController.m */,
+				BCB931031CDEF12C00E03D1C /* 111.jpg */,
+				BCB930FD1CDEEE5C00E03D1C /* bgm.jpg */,
 				BCB930EF1CDEEE2D00E03D1C /* Main.storyboard */,
 				BCB930F21CDEEE2D00E03D1C /* Assets.xcassets */,
 				BCB930F41CDEEE2D00E03D1C /* LaunchScreen.storyboard */,
@@ -77,6 +87,15 @@
 				BCB930E71CDEEE2D00E03D1C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCB930FF1CDEEED100E03D1C /* EditImage */ = {
+			isa = PBXGroup;
+			children = (
+				BCB931001CDEEEEB00E03D1C /* UIImage+ImageEffects.h */,
+				BCB931011CDEEEEB00E03D1C /* UIImage+ImageEffects.m */,
+			);
+			name = EditImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB930FE1CDEEE5C00E03D1C /* bgm.jpg in Resources */,
 				BCB930F61CDEEE2D00E03D1C /* LaunchScreen.storyboard in Resources */,
 				BCB930F31CDEEE2D00E03D1C /* Assets.xcassets in Resources */,
+				BCB931041CDEF12C00E03D1C /* 111.jpg in Resources */,
 				BCB930F11CDEEE2D00E03D1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB931021CDEEEEB00E03D1C /* UIImage+ImageEffects.m in Sources */,
 				BCB930EE1CDEEE2D00E03D1C /* ViewController.m in Sources */,
 				BCB930EB1CDEEE2D00E03D1C /* AppDelegate.m in Sources */,
 				BCB930E81CDEEE2D00E03D1C /* main.m in Sources */,
